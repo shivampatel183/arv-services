@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARV Services | Specialized WordPress Solutions for Agri-Exporters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        arvDarkBlue: '#001F5B', // Deep blue from the "ARV" text
+                        arvCyan: '#2DD4BF',     // Cyan from the logo icon
+                        arvBlueAccent: '#0057FF', // Brighter blue from the logo icon overlay
+                        arvLight: '#F8FAFC',    // Light gray for backgrounds
+                        arvGreen: '#22C55E'     // Subtle green for agri-accents
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'glow': '0 0 20px rgba(45, 212, 191, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom gradient text utility */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #2DD4BF, #0057FF);
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800 antialiased bg-white">
+
+    <nav class="bg-white/95 backdrop-blur-sm fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center gap-3 group flex-shrink-0">
+                    <div class="relative w-12 h-12 flex-shrink-0">
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-[#2DD4BF] rounded-lg transform -skew-x-12 translate-x-1 translate-y-0 opacity-90 mix-blend-multiply transition-transform group-hover:translate-x-0">
+                        </div>
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-[#0057FF] rounded-lg transform -skew-x-12 translate-x-4 translate-y-2 opacity-90 mix-blend-multiply transition-transform group-hover:translate-x-3">
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center -mt-1 font-logo">
+                        <h1 class="text-3xl font-extrabold text-[#001F5B] leading-none tracking-tight">ARV</h1>
+                        <span
+                            class="text-[10px] text-gray-500 font-light tracking-[0.3em] uppercase leading-tight ml-0.5">SERVICES</span>
+                    </div>
+                </a>
+
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-arvBlueAccent font-bold transition">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-arvBlueAccent font-medium transition">Why
+                        Us</a>
+                    <a href="services.html"
+                        class="text-gray-700 hover:text-arvBlueAccent font-medium transition">Services</a>
+                    <a href="agri-solutions.html"
+                        class="text-gray-700 hover:text-arvBlueAccent font-medium transition">For Exporters</a>
+                    <a href="contact.html"
+                        class="bg-gradient-to-r from-arvBlueAccent to-arvCyan text-white px-6 py-2.5 rounded-lg font-semibold hover:shadow-glow transition">Get
+                        Free Proposal</a>
+                </div>
+
+                <div class="md:hidden text-2xl text-arvDarkBlue cursor-pointer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 lg:pt-40 lg:pb-32 bg-arvLight relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-40 -mt-40 w-[600px] h-[600px] rounded-full bg-arvCyan/10 blur-3xl"></div>
+        <div
+            class="absolute bottom-0 left-0 -ml-40 -mb-40 w-[600px] h-[600px] rounded-full bg-arvBlueAccent/10 blur-3xl">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-center lg:text-left">
+                    <div
+                        class="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 px-4 py-2 rounded-full mb-6">
+                        <i class="fas fa-check-circle text-arvGreen"></i>
+                        <span class="text-arvDarkBlue font-medium text-sm">Specialized for Spices, Grains & Fresh
+                            Produce Exporters</span>
+                    </div>
+                    <h1 class="text-4xl lg:text-6xl font-extrabold text-arvDarkBlue leading-tight tracking-tight mb-6">
+                        Turn Global Buyers into <br>
+                        <span class="text-gradient">Long-Term Partners.</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        We build high-performance WordPress websites that establish instant trust with international
+                        importers. Showcase your quality, certifications, and infrastructure professionally.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#contact"
+                            class="bg-arvDarkBlue text-white px-8 py-3.5 rounded-lg font-bold hover:bg-arvBlueAccent transition shadow-lg flex items-center justify-center gap-2">
+                            Start Your Project <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#services"
+                            class="px-8 py-3.5 bg-white text-arvDarkBlue border-2 border-arvDarkBlue rounded-lg font-bold hover:bg-blue-50 transition flex items-center justify-center gap-2">
+                            View Services
+                        </a>
+                    </div>
+
+                    <div
+                        class="mt-12 flex items-center gap-6 justify-center lg:justify-start text-gray-500 text-sm font-medium">
+                        <div class="flex items-center gap-2"><i class="fab fa-wordpress text-2xl text-blue-600"></i> WP
+                            Experts</div>
+                        <div class="w-px h-6 bg-gray-300"></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-shield-alt text-2xl text-arvCyan"></i>
+                            Secure & Fast</div>
+                        <div class="w-px h-6 bg-gray-300"></div>
+                        <div class="flex items-center gap-2"><i class="fas fa-mobile-alt text-2xl text-gray-700"></i>
+                            Mobile Ready</div>
+                    </div>
+                </div>
+
+                <div class="relative lg:ml-10">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white z-10">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                            alt="Professional Web Development Code" class="w-full h-full object-cover">
+                        <div
+                            class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur p-4 rounded-xl shadow-lg flex items-center gap-4">
+                            <div class="bg-arvGreen/20 p-3 rounded-full text-arvGreen">
+                                <i class="fas fa-chart-line text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-arvDarkBlue">Export-Ready</h4>
+                                <p class="text-sm text-gray-600">Optimized for international lead generation.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="absolute -bottom-10 -left-10 text-arvCyan/30 z-0">
+                        <svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="10" r="10" fill="currentColor" />
+                            <circle cx="60" cy="10" r="10" fill="currentColor" />
+                            <circle cx="110" cy="10" r="10" fill="currentColor" />
+                            <circle cx="10" cy="60" r="10" fill="currentColor" />
+                            <circle cx="60" cy="60" r="10" fill="currentColor" />
+                            <circle cx="110" cy="60" r="10" fill="currentColor" />
+                            <circle cx="10" cy="110" r="10" fill="currentColor" />
+                            <circle cx="60" cy="110" r="10" fill="currentColor" />
+                            <circle cx="110" cy="110" r="10" fill="currentColor" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 max-w-3xl mx-auto">
+                <h2 class="text-3xl lg:text-4xl font-bold text-arvDarkBlue mb-4">Why Generic Freelancers Fail Exporters
+                </h2>
+                <p class="text-gray-600 text-lg">A standard business website isn't enough for global trade.
+                    International buyers have specific concerns that need addressing immediately.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-arvLight p-8 rounded-2xl hover:shadow-md transition border-t-4 border-red-400">
+                    <div class="mb-4 text-red-500 text-4xl"><i class="fas fa-times-circle"></i></div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Lack of Trust Signals</h3>
+                    <p class="text-gray-600">If buyers can't easily find your APEDA, ISO, or FSSAI certifications, they
+                        assume you aren't legitimate and move to the next supplier.</p>
+                </div>
+                <div class="bg-arvLight p-8 rounded-2xl hover:shadow-md transition border-t-4 border-red-400">
+                    <div class="mb-4 text-red-500 text-4xl"><i class="fas fa-file-alt"></i></div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Poor Product Details</h3>
+                    <p class="text-gray-600">A simple photo isn't enough. Buyers need technical specs: Moisture %,
+                        Purity, Mesh Size, and Packaging options displayed clearly.</p>
+                </div>
+                <div class="bg-arvLight p-8 rounded-2xl hover:shadow-md transition border-t-4 border-red-400">
+                    <div class="mb-4 text-red-500 text-4xl"><i class="fas fa-comments"></i></div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Hard to Contact</h3>
+                    <p class="text-gray-600">Buried contact forms lose leads. Exporters need instant connectivity tools
+                        like WhatsApp Business API integration right on product pages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="agri-focus" class="py-20 bg-arvDarkBlue relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="text-white">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-6">The ARV Advantage: <br><span class="text-arvCyan">We
+                            Speak Your Language</span></h2>
+                    <p class="text-gray-300 text-lg mb-8">We don't just know coding; we understand the export business.
+                        We build websites designed to overcome the specific friction points of international trade.</p>
+
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-arvCyan/20 text-arvCyan rounded-lg flex items-center justify-center text-2xl mr-4">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Multilingual Capabilities</h4>
+                                <p class="text-gray-300">Don't limit your market. We can set up your site to easily
+                                    translate into Spanish, Arabic, or French for target regions.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-arvCyan/20 text-arvCyan rounded-lg flex items-center justify-center text-2xl mr-4">
+                                <i class="fas fa-boxes-packing"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">Structured Product Catalogs</h4>
+                                <p class="text-gray-300">Easy-to-manage backend for listing commodities with custom
+                                    fields for specs, origin, and loadability.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div
+                                class="flex-shrink-0 w-12 h-12 bg-arvCyan/20 text-arvCyan rounded-lg flex items-center justify-center text-2xl mr-4">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold mb-2">One-Click Inquiry</h4>
+                                <p class="text-gray-300">Direct WhatsApp integration linked to specific products so you
+                                    know exactly what the buyer is interested in.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="relative">
+                    <div
+                        class="bg-white p-6 rounded-xl shadow-2xl transform rotate-3 hover:rotate-0 transition duration-500">
+                        <div class="flex items-center justify-between mb-6 border-b pb-4">
+                            <h3 class="font-bold text-arvDarkBlue text-lg">Product: Organic Turmeric Finger</h3>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">In
+                                Stock</span>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex justify-between text-sm bg-gray-50 p-2 rounded">
+                                <span class="text-gray-600">Curcumin Content:</span>
+                                <span class="font-semibold">3.5% - 5% Max</span>
+                            </div>
+                            <div class="flex justify-between text-sm p-2 rounded">
+                                <span class="text-gray-600">Moisture:</span>
+                                <span class="font-semibold">10% Max</span>
+                            </div>
+                            <div class="flex justify-between text-sm bg-gray-50 p-2 rounded">
+                                <span class="text-gray-600">Origin:</span>
+                                <span class="font-semibold">Sangli, Maharashtra</span>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex gap-2">
+                            <button
+                                class="flex-1 bg-arvGreen text-white py-2 rounded-md font-semibold text-sm flex items-center justify-center gap-2">
+                                <i class="fab fa-whatsapp"></i> Inquire Now
+                            </button>
+                            <button
+                                class="flex-1 bg-arvDarkBlue text-white py-2 rounded-md font-semibold text-sm flex items-center justify-center gap-2">
+                                <i class="fas fa-file-pdf"></i> Download Lab Report
+                            </button>
+                        </div>
+                        <p class="text-center text-xs text-gray-400 mt-4">Example of an ARV structured product layout
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-arvLight">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll">
+                <h2 class="text-3xl lg:text-4xl font-bold text-arvDarkBlue mb-4">Complete Digital Solutions</h2>
+                <p class="text-gray-600 text-lg max-w-2xl mx-auto">We provide end-to-end services so you can focus on
+                    your shipments, not server issues.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-blue-100 text-arvBlueAccent rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-arvBlueAccent group-hover:text-white transition">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Custom WordPress Development</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">Tailored themes that match your brand identity. Clean
+                        code for fast loading speeds that international buyers expect.</p>
+                    <a href="#"
+                        class="text-arvCyan font-semibold flex items-center gap-2 group-hover:gap-4 transition-all">Learn
+                        more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-green-100 text-arvGreen rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-arvGreen group-hover:text-white transition">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">International B2B SEO</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">We target keywords like "Bulk Rice Supplier India" to
+                        make sure you are found by genuine importers on Google.</p>
+                    <a href="#"
+                        class="text-arvCyan font-semibold flex items-center gap-2 group-hover:gap-4 transition-all">Learn
+                        more <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 group">
+                    <div
+                        class="w-14 h-14 bg-cyan-100 text-arvCyan rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-arvCyan group-hover:text-white transition">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Maintenance & Security</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">SSL installation, malware protection, and regular
+                        backups. Your business runs 24/7, and so should your website.</p>
+                    <a href="#"
+                        class="text-arvCyan font-semibold flex items-center gap-2 group-hover:gap-4 transition-all">Learn
+                        more <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div
+                class="bg-gradient-to-br from-arvDarkBlue to-blue-900 rounded-3xl p-8 md:p-16 shadow-2xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-arvCyan/20 rounded-full blur-3xl -mr-20 -mt-20"></div>
+
+                <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">Ready to Modernize Your
+                            Export Business?</h2>
+                        <p class="text-gray-300 text-lg mb-8">Get a free consultation and a quote for a website that
+                            actually helps you close more deals.</p>
+
+                        <div class="space-y-4">
+                            <a href="mailto:arvservices.info@gmail.com"
+                                class="flex items-center gap-3 text-white hover:text-arvCyan transition">
+                                <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <span class="font-medium">arvservices.info@gmail.com</span>
+                            </a>
+                            <a href="https://wa.me/919879729757"
+                                class="flex items-center gap-3 text-white hover:text-arvCyan transition">
+                                <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <span class="font-medium">+91 98797 29757</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-lg">
+                        <h3 class="text-xl font-bold text-arvDarkBlue mb-6">Request a Quote</h3>
+                        <form class="space-y-4">
+                            <div>
+                                <input type="text" placeholder="Your Name"
+                                    class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-arvCyan">
+                            </div>
+                            <div>
+                                <input type="text" placeholder="Company Name"
+                                    class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-arvCyan">
+                            </div>
+                            <div>
+                                <select
+                                    class="w-full p-3 bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:border-arvCyan text-gray-500">
+                                    <option>Main Export Product?</option>
+                                    <option>Spices</option>
+                                    <option>Grains/Cereals</option>
+                                    <option>Fruits/Vegetables</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <button type="button"
+                                class="w-full bg-arvDarkBlue text-white font-bold py-3 rounded-lg hover:bg-arvBlueAccent transition">Send
+                                Request</button>
+                            <p class="text-xs text-center text-gray-500 mt-2">We usually reply within 24 hours.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-arvDarkBlue text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8 mb-8">
+            <div class="col-span-1 md:col-span-2">
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 flex-shrink-0">
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-white rounded-lg transform -skew-x-12 translate-x-1 translate-y-0 opacity-20 transition-transform group-hover:translate-x-0">
+                        </div>
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-white rounded-lg transform -skew-x-12 translate-x-4 translate-y-2 opacity-10 transition-transform group-hover:translate-x-3">
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center -mt-1 font-logo">
+                        <h1 class="text-3xl font-extrabold text-white leading-none tracking-tight">ARV</h1>
+                        <span
+                            class="text-[10px] text-gray-300 font-light tracking-[0.3em] uppercase leading-tight ml-0.5">SERVICES</span>
+                    </div>
+                </a>
+                <p class="text-gray-400 max-w-sm leading-relaxed">
+                    Helping Indian agri-exporters establish trust and connect with global markets through professional
+                    WordPress solutions.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-arvCyan transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-arvCyan transition">About Us</a></li>
+                    <li><a href="services.html" class="hover:text-arvCyan transition">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-arvCyan transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Connect</h4>
+                <div class="flex space-x-4">
+                    <a href="https://instagram.com/arv.services"
+                        class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-arvCyan hover:text-arvDarkBlue transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/919879729757"
+                        class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-arvCyan hover:text-arvDarkBlue transition">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-white/10 text-center md:text-left md:flex justify-between items-center">
+            <p>© 2025 ARV Services. All rights reserved.</p>
+            <p class="mt-4 md:mt-0">Based in Halvad, Gujarat.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

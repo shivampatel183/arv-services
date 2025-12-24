@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | ARV Services - Web Development for Exporters</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        arvDarkBlue: '#001F5B',
+                        arvCyan: '#2DD4BF',
+                        arvBlueAccent: '#0057FF',
+                        arvLight: '#F8FAFC',
+                        arvGreen: '#22C55E'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="font-sans text-gray-800 antialiased bg-arvLight">
+
+    <nav class="bg-white/95 backdrop-blur-sm fixed w-full z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center gap-3 group flex-shrink-0">
+                    <div class="relative w-12 h-12 flex-shrink-0">
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-[#2DD4BF] rounded-lg transform -skew-x-12 translate-x-1 translate-y-0 opacity-90 mix-blend-multiply transition-transform group-hover:translate-x-0">
+                        </div>
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-[#0057FF] rounded-lg transform -skew-x-12 translate-x-4 translate-y-2 opacity-90 mix-blend-multiply transition-transform group-hover:translate-x-3">
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center -mt-1 font-logo">
+                        <h1 class="text-3xl font-extrabold text-[#001F5B] leading-none tracking-tight">ARV</h1>
+                        <span
+                            class="text-[10px] text-gray-500 font-light tracking-[0.3em] uppercase leading-tight ml-0.5">SERVICES</span>
+                    </div>
+                </a>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-gray-700 hover:text-arvBlueAccent font-medium transition">Home</a>
+                    <a href="about.html" class="text-gray-700 hover:text-arvBlueAccent font-medium transition">Why
+                        Us</a>
+                    <a href="services.html" class="text-arvBlueAccent font-bold transition">Services</a>
+                    <a href="agri-solutions.html"
+                        class="text-gray-700 hover:text-arvBlueAccent font-medium transition">For Exporters</a>
+                    <a href="contact.html"
+                        class="bg-gradient-to-r from-arvBlueAccent to-arvCyan text-white px-6 py-2.5 rounded-lg font-semibold hover:shadow-lg transition">Get
+                        Free Proposal</a>
+                </div>
+                <div class="md:hidden text-2xl text-arvDarkBlue">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-40 pb-20 bg-arvDarkBlue relative overflow-hidden">
+        <div
+            class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+        </div>
+        <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-arvBlueAccent/20 rounded-full blur-[100px]"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-3xl">
+                <span class="text-arvCyan font-bold tracking-wider uppercase text-sm mb-4 block">End-to-End
+                    Solutions</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+                    We Build Digital Assets <br> That <span
+                        class="text-transparent bg-clip-text bg-gradient-to-r from-arvCyan to-white">Generate
+                        Leads.</span>
+                </h1>
+                <p class="text-gray-300 text-lg leading-relaxed">
+                    From custom WordPress themes to complex product catalogs for huge inventories. We handle the
+                    technology so you can handle the logistics.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 -mt-10 relative z-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-arvCyan hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-blue-50 text-arvDarkBlue rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-arvDarkBlue group-hover:text-white transition">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Custom WordPress Sites</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        We don't use slow, bloated templates. We build lightweight, custom themes tailored to your
+                        brand.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Fast Loading Speed
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Mobile Responsive
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Easy Admin Panel
+                        </li>
+                    </ul>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-arvBlueAccent hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-blue-50 text-arvBlueAccent rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-arvBlueAccent group-hover:text-white transition">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Product Catalog Systems</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Essential for Exporters. Manage 100+ products easily. Display specs (Moisture, Ash, Packing) in
+                        a structured table format.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Filter by Category
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Download PDF Option
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Bulk Edit
+                            Capability</li>
+                    </ul>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-arvGreen hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-green-50 text-arvGreen rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-arvGreen group-hover:text-white transition">
+                        <i class="fas fa-search-location"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">International SEO</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        We optimize your site to rank for high-value keywords used by importers in USA, UK, and UAE.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-500">
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Keyword Research
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Google My Business
+                        </li>
+                        <li class="flex items-center"><i class="fas fa-check text-arvCyan mr-2"></i> Country-Specific
+                            Targeting</li>
+                    </ul>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-purple-500 hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-purple-50 text-purple-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-purple-600 group-hover:text-white transition">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">WhatsApp & CRM API</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Reduce friction. Let buyers chat with you directly from the product page via WhatsApp Business
+                        API.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-yellow-500 hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-yellow-50 text-yellow-600 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-yellow-500 group-hover:text-white transition">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Security & AMC</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        We protect your business data with SSL certificates, malware scanning, and daily cloud backups.
+                    </p>
+                </div>
+
+                <div
+                    class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-pink-500 hover:-translate-y-2 transition duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-pink-50 text-pink-500 rounded-xl flex items-center justify-center text-3xl mb-6 group-hover:bg-pink-500 group-hover:text-white transition">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-arvDarkBlue mb-3">Digital Branding</h3>
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        Logo design, company profile PDFs, and social media creative specifically for LinkedIn and
+                        Facebook promotion.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 class="text-gray-400 font-semibold tracking-widest uppercase mb-8">Technologies We Master</h3>
+            <div
+                class="flex flex-wrap justify-center gap-8 md:gap-16 opacity-70 grayscale hover:grayscale-0 transition duration-500">
+                <i class="fab fa-wordpress text-5xl hover:text-blue-600 transition"></i>
+                <i class="fab fa-react text-5xl hover:text-cyan-400 transition"></i>
+                <i class="fab fa-html5 text-5xl hover:text-orange-500 transition"></i>
+                <i class="fab fa-js text-5xl hover:text-yellow-400 transition"></i>
+                <i class="fas fa-database text-5xl hover:text-arvDarkBlue transition"></i> <i
+                    class="fab fa-google text-5xl hover:text-red-500 transition"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-arvDarkBlue text-white relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10">
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold">How We Work</h2>
+                <p class="text-gray-400 mt-4">Simple, transparent, and deadline-oriented.</p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center relative">
+                    <div
+                        class="w-16 h-16 bg-arvCyan text-arvDarkBlue rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6 shadow-[0_0_20px_rgba(45,212,191,0.5)]">
+                        1</div>
+                    <h4 class="text-xl font-bold mb-2">Requirement</h4>
+                    <p class="text-sm text-gray-400">We discuss your products and target market (USA/EU/Asia).</p>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gray-700 -z-10"></div>
+                </div>
+
+                <div class="text-center relative">
+                    <div
+                        class="w-16 h-16 bg-arvDarkBlue border-2 border-arvCyan text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        2</div>
+                    <h4 class="text-xl font-bold mb-2">Design & Dev</h4>
+                    <p class="text-sm text-gray-400">We build the UI and upload your initial product list.</p>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gray-700 -z-10"></div>
+                </div>
+
+                <div class="text-center relative">
+                    <div
+                        class="w-16 h-16 bg-arvDarkBlue border-2 border-arvCyan text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        3</div>
+                    <h4 class="text-xl font-bold mb-2">Feedback</h4>
+                    <p class="text-sm text-gray-400">You review the site. We make corrections until you are happy.</p>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gray-700 -z-10"></div>
+                </div>
+
+                <div class="text-center relative">
+                    <div
+                        class="w-16 h-16 bg-white text-arvDarkBlue rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">
+                        4</div>
+                    <h4 class="text-xl font-bold mb-2">Launch</h4>
+                    <p class="text-sm text-gray-400">We publish the site, set up Google Analytics, and hand over keys.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-arvDarkBlue mb-6">Not sure which service you need?</h2>
+            <p class="text-gray-600 mb-8">No problem. We offer a free 30-minute consultation to analyze your current
+                online presence.</p>
+            <a href="contact.html"
+                class="inline-block bg-arvBlueAccent text-white px-10 py-4 rounded-lg font-bold hover:bg-arvDarkBlue transition shadow-lg hover:-translate-y-1">
+                Book Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-arvDarkBlue text-gray-300 py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-4 gap-8 mb-8">
+            <div class="col-span-1 md:col-span-2">
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <div class="relative w-12 h-12 flex-shrink-0">
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-white rounded-lg transform -skew-x-12 translate-x-1 translate-y-0 opacity-20 transition-transform group-hover:translate-x-0">
+                        </div>
+                        <div
+                            class="absolute inset-0 w-8 h-10 bg-white rounded-lg transform -skew-x-12 translate-x-4 translate-y-2 opacity-10 transition-transform group-hover:translate-x-3">
+                        </div>
+                    </div>
+                    <div class="flex flex-col justify-center -mt-1 font-logo">
+                        <h1 class="text-3xl font-extrabold text-white leading-none tracking-tight">ARV</h1>
+                        <span
+                            class="text-[10px] text-gray-300 font-light tracking-[0.3em] uppercase leading-tight ml-0.5">SERVICES</span>
+                    </div>
+                </a>
+                <p class="text-gray-400 max-w-sm leading-relaxed">
+                    Helping Indian agri-exporters establish trust and connect with global markets through professional
+                    WordPress solutions.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="index.html" class="hover:text-arvCyan transition">Home</a></li>
+                    <li><a href="about.html" class="hover:text-arvCyan transition">About Us</a></li>
+                    <li><a href="services.html" class="text-arvCyan font-semibold transition">Services</a></li>
+                    <li><a href="contact.html" class="hover:text-arvCyan transition">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4">Connect</h4>
+                <div class="flex space-x-4">
+                    <a href="https://instagram.com/arv.services"
+                        class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-arvCyan hover:text-arvDarkBlue transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/919879729757"
+                        class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-arvCyan hover:text-arvDarkBlue transition">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-white/10 text-center md:text-left md:flex justify-between items-center">
+            <p>© 2025 ARV Services. All rights reserved.</p>
+            <p class="mt-4 md:mt-0">Designed & Developed in Gujarat.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
